@@ -2613,8 +2613,8 @@ span.reverse {
 
 	.features article {
 		border-top: solid 1px #8EABAA;
-		margin-bottom: 1.25em;
-		padding-top: 1.25em;
+		margin-bottom: 0.25em;
+		padding-top: 0.25em;
 	}
 
 		.features article:first-child {
