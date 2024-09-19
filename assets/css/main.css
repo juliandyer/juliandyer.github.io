@@ -2162,7 +2162,7 @@ span.reverse {
 
 		.image.main {
 			display: block;
-			height: 8em;
+			height: 4em;
 			border-radius: 0;
 		}
 
@@ -2624,9 +2624,9 @@ span.reverse {
 
 		.features article .image {
 			display: inline-block;
-			padding-right: 1em;
-			padding-top: 1em;
-			padding-bottom: 1em;
+			padding-right: 0em;
+			padding-top: 0em;
+			padding-bottom: 0em;
 			vertical-align: middle;
 			width: 35%;
 			height: 100%;
