@@ -1600,6 +1600,16 @@ input, select, textarea {
 			border-radius: 8px;
 		}
 
+		.image.avatar {
+			width: 150px;
+		}
+
+			.image.avatar img {
+				width: 150px;
+				height: 150px;
+				object-fit: cover;
+			}
+
 		.image.fit {
 			display: block;
 			width: 100%;
