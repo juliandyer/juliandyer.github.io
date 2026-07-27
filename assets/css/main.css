@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,800");
 
 /*
 	Verti by HTML5 UP
@@ -94,19 +94,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #f7f7f7;
-		background-position: top left, top left;
-		background-repeat: repeat-x, repeat;
-		background-size: 100% 30em, auto;
+		background-color: #fafafa;
 		font-family: 'Open Sans', sans-serif;
-		font-size: 13pt;
+		font-size: 12pt;
 		color: #696969;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.6em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -129,7 +122,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #ffffff;
+		color: #5c7a5c;
 		text-decoration: underline;
 	}
 
@@ -155,8 +148,13 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
-		margin: 0 0 1em 0;
+		font-size: 1.1em;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: #5c7a5c;
+		border-bottom: solid 2px #5c7a5c;
+		padding-bottom: 0.4em;
+		margin: 0 0 1.5em 0;
 	}
 
 	b, strong {
@@ -1652,13 +1650,13 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #aecfc7;
-		color: #000000;
+		background: #fff;
+		color: #5c7a5c;
 		text-decoration: none;
 		border-radius: 10px;
 		font-weight: 800;
 		outline: 0;
-		border: 0;
+		border: solid 1px #5c7a5c;
 		cursor: pointer;
 		font-size: 1em;
 		padding: 0.5em 0.5em;
@@ -1679,7 +1677,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #10a0d5;
+			background: #5c7a5c;
+			color: #fff;
 		}
 
 		input[type="button"]:active,
@@ -1687,7 +1686,8 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #20b0e5;
+			background: #5c7a5c;
+			color: #fff;
 		}
 
 		input[type="button"].alt,
@@ -1798,8 +1798,9 @@ input, select, textarea {
 
 	.box {
 		background: #fff;
+		border: solid 1px #e5e5e5;
 		border-radius: 6px;
-		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.06);
 		padding: 2em;
 	}
 
@@ -1926,10 +1927,6 @@ input, select, textarea {
 
 /* Wrappers */
 
-	#header-wrapper {
-		padding: 0.25em 0 0.25em 0;
-	}
-
 	#features-wrapper {
 		padding: 1em 0 1em 0;
 	}
@@ -1944,47 +1941,18 @@ input, select, textarea {
 		padding: 6em 0 8em 0;
 	}
 
-/* Header */
-
-	#header {
-		background-image: url("images/KakamegaRainforest.jpg");
-		position: relative;
-	}
-
 /* Logo */
 
 	#logo {
 		display: inline-block;
 	}
 
-		#logo h1 {
-			background: #ff4486;
-			color: #fff;
-			border-radius: 6px;
-			font-family: 'Oleo Script', serif;
-			font-weight: 400;
-			padding: 0.25em 0.2em 0.25em 0.2em;
-			font-size: 3.25em;
-			letter-spacing: 0.05em;
-			display: inline-block;
-			vertical-align: middle;
-		}
-
-		#logo span {
-			font-weight: 800;
-			line-height: 4.5em;
-			letter-spacing: 0.025em;
-			font-size: 0.9em;
-			vertical-align: middle;
-			margin: 0 0 0 1.25em;
-		}
-
 /* Nav */
 
 	#nav {
 		position: absolute;
-		right: 0;
-		top: 0;
+		right: 0.5em;
+		top: 0.5em;
 		font-size: 0.9em;
 	}
 
@@ -1995,18 +1963,20 @@ input, select, textarea {
 
 			#nav ul li {
 				float: left;
-				line-height: 4.5em;
-				padding-left: 1.5em;
+				line-height: 1;
+				padding-left: 0.75em;
 			}
 
 				#nav ul li a, #nav ul li span {
-					-moz-transition: background-color .25s ease-in-out;
-					-webkit-transition: background-color .25s ease-in-out;
-					-ms-transition: background-color .25s ease-in-out;
-					transition: background-color .25s ease-in-out;
+					-moz-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+					-webkit-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+					-ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+					transition: background-color .25s ease-in-out, color .25s ease-in-out;
+					display: inline-block;
 					font-weight: 800;
 					letter-spacing: 0.025em;
-					color: #696969;
+					color: #fff;
+					background-color: rgba(92, 122, 92, 0.65);
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
@@ -2017,16 +1987,18 @@ input, select, textarea {
 				}
 
 				#nav ul li:hover a, #nav ul li:hover span {
-					background: #fff;
+					background-color: #fff;
+					color: #5c7a5c;
 				}
 
 				#nav ul li.active a, #nav ul li.active span {
-					background: #fff;
+					background-color: #fff;
+					color: #5c7a5c;
 				}
 
 				#nav ul li.current a {
-					background: #444;
-					color: #fff;
+					background-color: #fff;
+					color: #5c7a5c;
 				}
 
 	.dropotron {
@@ -2092,11 +2064,26 @@ input, select, textarea {
 
 /* Banner */
 
+	#banner-wrapper {
+		background-image: url("../../images/camels_horizon.jpg");
+		background-size: cover;
+		background-position: center 55%;
+	}
+
 	#banner {
 		position: relative;
-		padding: 0.5em;
-		background-color: #7c958f;
+		padding: 3.5em 0.5em 1em 0.5em;
+		background: transparent;
+		border: none;
+		box-shadow: none;
 	}
+
+		#banner .banner-text {
+			display: inline-block;
+			background-color: rgba(92, 122, 92, 0.65);
+			border-radius: 8px;
+			padding: 0.6em 1em;
+		}
 
 		#banner h2 {
 			font-size: 1.75em;
@@ -2111,16 +2098,21 @@ input, select, textarea {
 			color: #fff;
 		}
 
-		#banner .button {
-			width: 100%;
-			margin-bottom: 0.5em;
+		#banner a {
+			color: #fff;
 		}
 
-			#banner .button.icon:before {
-				position: absolute;
-				right: 0.15em;
-				top: 50%;
-				margin-top: -0.5em;
+		#banner .button {
+			width: auto;
+			margin: 0;
+			padding: 0.35em 0.75em;
+			font-size: 0.8em;
+			color: #5c7a5c;
+		}
+
+			#banner .button:hover,
+			#banner .button:active {
+				color: #fff;
 			}
 
 			#banner .button.alt {
@@ -2130,11 +2122,13 @@ input, select, textarea {
 		#banner ul {
 			list-style: none;
 			padding-left: 0;
-			margin: 0 0 0 2em;
+			margin: 1em 0 0 0;
 		}
 
 			#banner ul li {
+				display: inline-block;
 				padding-left: 0;
+				margin: 0 0.75em 0.5em 0;
 			}
 
 /* Footer */
@@ -2164,7 +2158,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 	}
@@ -2270,19 +2264,8 @@ input, select, textarea {
 
 		/* Wrappers */
 
-			#header-wrapper {
-				padding: 3em 0 1em 0;
-				text-align: center;
-			}
-
 			#footer-wrapper {
 				padding: 6em 0 4em 0;
-			}
-
-		/* Header */
-
-			#header {
-				margin: 0 auto;
 			}
 
 		/* Logo */
@@ -2636,10 +2619,6 @@ input, select, textarea {
 
 		/* Wrappers */
 
-			#header-wrapper {
-				padding: 3em 0 1.5em 0;
-			}
-
 			#banner-wrapper {
 				padding: 0 15px 0 15px;
 			}
@@ -2707,5 +2686,98 @@ input, select, textarea {
 			#copyright {
 				text-align: left;
 			}
+
+	}
+
+/* Custom (site content) */
+
+	.box.feature .image img {
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.card-links {
+		line-height: 1.4;
+	}
+
+	.pub-link {
+		color: #5c7a5c;
+	}
+
+	.pub-link:hover {
+		text-decoration: underline;
+	}
+
+	.pub-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pub-item {
+		display: flex;
+		align-items: flex-start;
+		gap: 1.75em;
+		padding: 1.75em 0;
+		border-bottom: solid 1px #e5e5e5;
+	}
+
+	.pub-item:first-child {
+		padding-top: 0;
+	}
+
+	.pub-item:last-child {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.pub-item .thumb {
+		flex: 0 0 150px;
+		width: 150px;
+		height: 150px;
+		border-radius: 6px;
+		overflow: hidden;
+		display: block;
+	}
+
+	.pub-item .thumb img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		border-radius: 0;
+	}
+
+	.pub-item .content {
+		flex: 1 1 auto;
+		min-width: 0;
+	}
+
+	.pub-item h2 {
+		font-size: 1.3em;
+		line-height: 1.3em;
+		margin: 0 0 0.3em 0;
+	}
+
+	.pub-item .meta {
+		color: #888;
+		font-size: 0.95em;
+		margin: 0 0 0.5em 0;
+	}
+
+	.pub-item .card-links {
+		margin: 0;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.pub-item {
+			flex-direction: column;
+		}
+
+		.pub-item .thumb {
+			width: 100%;
+			height: 180px;
+		}
 
 	}
