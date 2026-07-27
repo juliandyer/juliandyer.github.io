@@ -1983,7 +1983,7 @@ input, select, textarea {
 					-ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
 					transition: background-color .25s ease-in-out, color .25s ease-in-out;
 					display: inline-block;
-					font-weight: 800;
+					font-weight: 400;
 					letter-spacing: 0.025em;
 					color: #fff;
 					background-color: rgba(92, 122, 92, 0.65);
