@@ -2115,7 +2115,7 @@ input, select, textarea {
 		#banner .button {
 			width: auto;
 			margin: 0;
-			padding: 0.35em 0.75em;
+			padding: 0.2em 0.5em;
 			font-size: 0.8em;
 			color: #5c7a5c;
 		}
@@ -2132,13 +2132,13 @@ input, select, textarea {
 		#banner ul {
 			list-style: none;
 			padding-left: 0;
-			margin: 1em 0 0 0;
+			margin: 0.5em 0 0 0;
 		}
 
 			#banner ul li {
 				display: inline-block;
 				padding-left: 0;
-				margin: 0 0.75em 0.5em 0;
+				margin: 0 0.5em 0.3em 0;
 			}
 
 /* Footer */
